@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+}
+
+.body {
+    margin: 2rem;
+}
+
+.heading{
+    color: violet;
+    text-align: center;
+}
+
+.form-control {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    column-gap: 2rem;
+}
+
+.form-control input {
+    padding: 0.5rem;
+}
+
+.form-control #project-description {
+    width: 20rem;
+}
+
+.form-control button {
+    padding: 0.5rem;
+    width: 5rem;
+    background-color: violet;
+    border: 0;
+    border-radius: 0.3rem;
+}
+
+.form-control button:hover{
+    background-color: rgb(234, 152, 234);
+}
+
+.card-container{
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    margin-top: 1rem;
+}
+
+.card-title{
+}
+
+.card-description{
+   margin-top: 0.5rem;
+}
+
+.projects-cards-section{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects-cards-section > div{
+   width: 50%;
+}
